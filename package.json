@@ -25,7 +25,8 @@
     "build-browser-min": "gulp build-browser-gzip",
     "install": "gulp build",
     "watch": "gulp watch",
-    "test-watch": "gulp test-watch"
+    "test-watch": "gulp test-watch",
+    "lint": "gulp lint"
   },
   "dependencies": {
     "biojs-io-parser": "^1.0.0"
