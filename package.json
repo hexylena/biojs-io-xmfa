@@ -3,10 +3,7 @@
   "description": "Mauve XMFA Parser",
   "version": "0.1.0",
   "homepage": "https://github.com/erasche/biojs-io-xmfa",
-  "author": {
-    "name": "Eric Rasche",
-    "email": "esr@tamu.edu"
-  },
+  "author": "Eric Rasche <esr@tamu.edu>",
   "repository": {
     "type": "git",
     "url": "git://github.com/erasche/biojs-io-xmfa.git"
@@ -22,34 +19,41 @@
   ],
   "main": "lib/index.js",
   "scripts": {
-		"test": "gulp test",
-		"build": "gulp build",
-		"build-browser": "gulp build-browser",
-		"build-browser-min": "gulp build-browser-gzip",
-		"install": "gulp build",
-		"watch": "gulp watch",
-		"test-watch": "gulp test-watch"
-  },
-  "dependencies": {},
-  "devDependencies": {
-		"mkdirp": "^0.5.0",
-		"browserify": "6.x",
-		"gulp-jshint": "1.x",
-		"chai": "1.x",
-		"mocha": "^2.0.1",
-		"gulp-mocha": "^2.0.0",
-		"del": "^0.1.3",
-		"gulp": "^3.8.8",
-		"gulp-chmod": "^1.1.1",
-		"gulp-gzip": "^0.0.8",
-		"gulp-rename": "^1.2.0",
-		"gulp-streamify": "^0.0.5",
-		"gulp-uglify": "^1.0.1",
-		"gulp-util": "^3.0.1",
-		"vinyl-source-stream": "^1.0.0"
+    "test": "gulp test",
+    "build": "gulp build",
+    "build-browser": "gulp build-browser",
+    "build-browser-min": "gulp build-browser-gzip",
+    "install": "gulp build",
+    "watch": "gulp watch",
+    "test-watch": "gulp test-watch"
   },
   "dependencies": {
     "biojs-io-parser": "^1.0.0"
   },
-  "keywords": ["xmfa","mauve","biojs"]
+  "devDependencies": {
+    "mkdirp": "^0.5.0",
+    "browserify": "6.x",
+    "gulp-jshint": "1.x",
+    "chai": "1.x",
+    "mocha": "^2.0.1",
+    "gulp-mocha": "^2.0.0",
+    "del": "^0.1.3",
+    "gulp": "^3.8.8",
+    "gulp-chmod": "^1.1.1",
+    "gulp-gzip": "^0.0.8",
+    "gulp-rename": "^1.2.0",
+    "gulp-streamify": "^0.0.5",
+    "gulp-uglify": "^1.0.1",
+    "gulp-util": "^3.0.1",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "keywords": [
+    "xmfa",
+    "mauve",
+    "biojs"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "license": "Apache 2"
 }
