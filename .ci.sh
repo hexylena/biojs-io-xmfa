@@ -1,0 +1,2 @@
+npm test
+gulp lint
