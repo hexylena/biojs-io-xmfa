@@ -1,7 +1,7 @@
 {
   "name": "biojs-io-xmfa",
   "description": "Mauve XMFA Parser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/erasche/biojs-io-xmfa",
   "author": "Eric Rasche <esr@tamu.edu>",
   "repository": {
@@ -29,7 +29,6 @@
     "lint": "gulp lint"
   },
   "dependencies": {
-    "gulp-mocha": "^2.0.0",
     "biojs-io-parser": "^1.0.0"
   },
   "devDependencies": {
@@ -58,5 +57,5 @@
   "directories": {
     "test": "test"
   },
-  "license": "Apache 2"
+  "license": "Apache-2.0"
 }

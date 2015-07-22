@@ -1,0 +1,223 @@
+#FormatVersion Mauve1
+#Sequence1File	outseq.fa
+#Sequence1Entry	1
+#Sequence1Format	FastA
+#Sequence2File	outseq.fa
+#Sequence2Entry	2
+#Sequence2Format	FastA
+#Sequence3File	outseq.fa
+#Sequence3Entry	3
+#Sequence3Format	FastA
+#Sequence4File	outseq.fa
+#Sequence4Entry	4
+#Sequence4Format	FastA
+#BackboneFile	outseq.xmfa.bbcols
+> 1:301-420 + outseq.fa
+-ataagatggtagggttgggctacccagttagtaattggttgttttagtataaacatcctgagcacagctgcactcttgt
+gtatgttccccgaccttccctttgaggaccgcccgggattt
+> 2:0-0 + outseq.fa
+--------------------------------------------------------------------------------
+-----------------------------------------
+> 3:540-660 + outseq.fa
+cataagatggtagggttgggctacccagttagtaattggttgttttagtataaacatcctgagcacagctgcactcttgt
+gtatgttccccgaccttccctttgaggaccgcccgggattt
+> 4:540-660 + outseq.fa
+cataagatggtagggttgggctacccagttagtaattggttgttttagtataaacatcctgagcacagctgcactcttgt
+gtatgttccccgaccttccctttgaggaccgcccgggattt
+=
+> 1:183-300 + outseq.fa
+--atactcctgatcacgccttcccgtgacacaatgagttgaatgatcacgcgtcaggccaaatcgcctgataacgtgcta
+aaagagccctcttgctgcagatagggatgaaattttgggc
+> 3:1-120 + outseq.fa
+tcatactcctgatcacgccttcccgtgacacaatgagttgaatgatcacgcgtcaggccaaatcgcctgataacgtgcta
+aaagagccctcttgctgcagatagggatgaaattttgggc
+> 4:1-119 + outseq.fa
+tcatactcctgatcacgccttcccgtgacacaatgagttgaatgatcacgcgtcaggccaaatcgcctgataacgtgcta
+aaagagccctcttgctgcagatagggatgaaattttggg-
+=
+> 1:721-1260 + outseq.fa
+attaacgggtctataatctacgcgctggtactagcgaactcagtcaacgcatcatatcgtttggcgatcaagaataagtc
+tgcgagaccggacaagactcgcagtctcaggctcatataaagggagtccttccaatgtaccagtcccgttcgcactggac
+tgtcaccacccggcggagaatcgacgtagacgttcccagagagcggctcttggacaccaccagctatcatataccgacaa
+gtgttttcgtaggggtcaaagctgattttggagaacgtcacaggtgcggtatgtcaataggctgcgtcctatgaagcgtc
+ttgactcaggaaggtagacaccagtgggatggtgttaagaatatactgtggtgcgatggacaagcggtgcaggtgtgacg
+cgccataggcagctgcaacagttttaactgctacactccgacccttctccccgtagttgtgtgacgacaccagccatcat
+taaattgaaaatccttctcttactcttgcaaggtagcgcttttcgaatctgcaagcgcga
+> 2:3-420 + outseq.fa
+--------------------------------------------------------------------------------
+------------------------------------------ggagtccttccaatgtaccagtcccgttcgcactggac
+tgtcaccacccggcggagaatcgacgtagacgttcccagagagcggctcttggacaccaccagctatcatataccgacaa
+gtgttttcgtaggggtcaaagctgattttggagaacgtcacaggtgcggtatgtcaataggctgcgtcctatgaagcgtc
+ttgactcaggaaggtagacaccagtgggatggtgttaagaatatactgtggtgcgatggacaagcggtgcaggtgtgacg
+cgccataggcagctgcaacagttttaactgctacactccgacccttctccccgtagttgtgtgacgacaccagccatcat
+taaattgaaaatccttctcttactcttgcaaggtagcgcttttcgaatctgcaagcgcga
+> 3:661-1200 + outseq.fa
+attaacgggtctataatctacgcgctggtactagcgaactcagtcaacgcatcatatcgtttggcgatcaagaataagtc
+tgcgagaccggacaagactcgcagtctcaggctcatataaagggagtccttccaatgtaccagtcccgttcgcactggac
+tgtcaccacccggcggagaatcgacgtagacgttcccagagagcggctcttggacaccaccagctatcatataccgacaa
+gtgttttcgtaggggtcaaagctgattttggagaacgtcacaggtgcggtatgtcaataggctgcgtcctatgaagcgtc
+ttgactcaggaaggtagacaccagtgggatggtgttaagaatatactgtggtgcgatggacaagcggtgcaggtgtgacg
+cgccataggcagctgcaacagttttaactgctacactccgacccttctccccgtagttgtgtgacgacaccagccatcat
+taaattgaaaatccttctcttactcttgcaaggtagcgcttttcgaatctgcaagcgcga
+> 4:661-1200 - outseq.fa
+attaacgggtctataatctacgcgctggtactagcgaactcagtcaacgcatcatatcgtttggcgatcaagaataagtc
+tgcgagaccggacaagactcgcagtctcaggctcatataaagggagtccttccaatgtaccagtcccgttcgcactggac
+tgtcaccacccggcggagaatcgacgtagacgttcccagagagcggctcttggacaccaccagctatcatataccgacaa
+gtgttttcgtaggggtcaaagctgattttggagaacgtcacaggtgcggtatgtcaataggctgcgtcctatgaagcgtc
+ttgactcaggaaggtagacaccagtgggatggtgttaagaatatactgtggtgcgatggacaagcggtgcaggtgtgacg
+cgccataggcagctgcaacagttttaactgctacactccgacccttctccccgtagttgtgtgacgacaccagccatcat
+taaattgaaaatccttctcttactcttgcaaggtagcgcttttcgaatctgcaagcgcga
+=
+> 1:1261-1500 + outseq.fa
+gtacaattcattgtggcccagtcctggtatgtgagctcgttaagcaatctagctatgtatgatggacgggcgcgctatgg
+gtctttggtcgccggagccgctgtgcttctgaagctgttggaacggtaactattactataggtcccgcgagaaaaggtca
+taggggggcaagggtgcacgattaacggaatcctggatgatgtttagtagaagacacgcgggatatccacatggggtccg
+> 2:421-660 + outseq.fa
+gtacaattcattgtggcccagtcctggtatgtgagctcgttaagcaatctagctatgtatgatggacgggcgcgctatgg
+gtctttggtcgccggagccgctgtgcttctgaagctgttggaacggtaactattactataggtcccgcgagaaaaggtca
+taggggggcaagggtgcacgattaacggaatcctggatgatgtttagtagaagacacgcgggatatccacatggggtccg
+> 3:1201-1440 + outseq.fa
+gtacaattcattgtggcccagtcctggtatgtgagctcgttaagcaatctagctatgtatgatggacgggcgcgctatgg
+gtctttggtcgccggagccgctgtgcttctgaagctgttggaacggtaactattactataggtcccgcgagaaaaggtca
+taggggggcaagggtgcacgattaacggaatcctggatgatgtttagtagaagacacgcgggatatccacatggggtccg
+> 4:1201-1440 + outseq.fa
+gtacaattcattgtggcccagtcctggtatgtgagctcgttaagcaatctagctatgtatgatggacgggcgcgctatgg
+gtctttggtcgccggagccgctgtgcttctgaagctgttggaacggtaactattactataggtcccgcgagaaaaggtca
+taggggggcaagggtgcacgattaacggaatcctggatgatgtttagtagaagacacgcgggatatccacatggggtccg
+=
+> 1:421-720 + outseq.fa
+cggggcgtggtaaaccatatatgatgaccttcggggttactcattataaacagaacagggtaatgtactcgcagatccct
+cgactatcgaccgtggcgacaagatccacagagtcatgaatagagcgactaaattgccttcgcgtcgcaacatggtaatc
+ctcgtgtccacgttctaaacggccccggttacatctatcaacggcgaaaccccatcaatcagctcaagatctaccaaaag
+agcctgatttcaccaccgcttaagttcgctccgtcgtcatttagaatctacaactgacga
+> 2:661-960 + outseq.fa
+cggggcgtggtaaaccatatatgatgaccttcggggttactcattataaacagaacagggtaatgtactcgcagatccct
+cgactatcgaccgtggcgacaagatccacagagtcatgaatagagcgactaaattgccttcgcgtcgcaacatggtaatc
+ctcgtgtccacgttctaaacggccccggttacatctatcaacggcgaaaccccatcaatcagctcaagatctaccaaaag
+agcctgatttcaccaccgcttaagttcgctccgtcgtcatttagaatctacaactgacga
+> 3:1441-1740 + outseq.fa
+cggggcgtggtaaaccatatatgatgaccttcggggttactcattataaacagaacagggtaatgtactcgcagatccct
+cgactatcgaccgtggcgacaagatccacagagtcatgaatagagcgactaaattgccttcgcgtcgcaacatggtaatc
+ctcgtgtccacgttctaaacggccccggttacatctatcaacggcgaaaccccatcaatcagctcaagatctaccaaaag
+agcctgatttcaccaccgcttaagttcgctccgtcgtcatttagaatctacaactgacga
+> 4:1441-1740 + outseq.fa
+cggggcgtggtaaaccatatatgatgaccttcggggttactcattataaacagaacagggtaatgtactcgcagatccct
+cgactatcgaccgtggcgacaagatccacagagtcatgaatagagcgactaaattgccttcgcgtcgcaacatggtaatc
+ctcgtgtccacgttctaaacggccccggttacatctatcaacggcgaaaccccatcaatcagctcaagatctaccaaaag
+agcctgatttcaccaccgcttaagttcgctccgtcgtcatttagaatctacaactgacga
+=
+> 1:1501-1919 + outseq.fa
+tcaactccttttactatcatcagcttcataaacagattacctaggggtatgacggcgtctacttgtgccgtaaagagagg
+atggaactatcaaaggagtatatgaagctgaacgcgtgcaaatcaaggagtgtgagtgctatacaatgcgactcaaacat
+gagcataggatcgggggtagcgacgcaacttggtatggcccgcaaatagagaattatatttcatattctatgcagtaatt
+ccgatttggtgcttggtcaaccttgtgtgaggccaattgagtactcaccatgcggcaaggcttgaactccaagagcaggc
+ttatcgtttacgatcctatgcagacgacgggccctctccgattagatttaagatggatgcgtgttcatatgaccaaagtt
+agaatgatcctacgcaaag
+> 2:961-1379 + outseq.fa
+tcaactccttttactatcatcagcttcataaacagattacctaggggtatgacggcgtctacttgtgccgtaaagagagg
+atggaactatcaaaggagtatatgaagctgaacgcgtgcaaatcaaggagtgtgagtgctatacaatgcgactcaaacat
+gagcataggatcgggggtagcgacgcaacttggtatggcccgcaaatagagaattatatttcatattctatgcagtaatt
+ccgatttggtgcttggtcaaccttgtgtgaggccaattgagtactcaccatgcggcaaggcttgaactccaagagcaggc
+ttatcgtttacgatcctatgcagacgacgggccctctccgattagatttaagatggatgcgtgttcatatgaccaaagtt
+agaatgatcctacgcaaag
+> 3:121-539 + outseq.fa
+tcaactccttttactatcatcagcttcataaacagattacctaggggtatgacggcgtctacttgtgccgtaaagagagg
+atggaactatcaaaggagtatatgaagctgaacgcgtgcaaatcaaggagtgtgagtgctatacaatgcgactcaaacat
+gagcataggatcgggggtagcgacgcaacttggtatggcccgcaaatagagaattatatttcatattctatgcagtaatt
+ccgatttggtgcttggtcaaccttgtgtgaggccaattgagtactcaccatgcggcaaggcttgaactccaagagcaggc
+ttatcgtttacgatcctatgcagacgacgggccctctccgattagatttaagatggatgcgtgttcatatgaccaaagtt
+agaatgatcctacgcaaag
+> 4:121-539 + outseq.fa
+tcaactccttttactatcatcagcttcataaacagattacctaggggtatgacggcgtctacttgtgccgtaaagagagg
+atggaactatcaaaggagtatatgaagctgaacgcgtgcaaatcaaggagtgtgagtgctatacaatgcgactcaaacat
+gagcataggatcgggggtagcgacgcaacttggtatggcccgcaaatagagaattatatttcatattctatgcagtaatt
+ccgatttggtgcttggtcaaccttgtgtgaggccaattgagtactcaccatgcggcaaggcttgaactccaagagcaggc
+ttatcgtttacgatcctatgcagacgacgggccctctccgattagatttaagatggatgcgtgttcatatgaccaaagtt
+agaatgatcctacgcaaag
+=
+> 1:1921-2179 + outseq.fa
+gaagaaaaatcacgttgtgcggttaagcgatacggggtctttccactcagtgcgttgagtaacagcctgagctaggcgta
+acgtacgacggccgtggcggtgctgccgcttagtcgacctgctcacgggctcaaagtttgcggtttctatctaaatcagc
+agggctagtttccggtccccat----------------------------------------------------------
+--------------------------------------------------------------------------------
+----------------------------------------------cacttctaatttctacggtttatcatgaagttca
+gatgtttcacaatcgacctatacccc------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+----------tagttcaacttggacaa
+> 2:1381-1819 + outseq.fa
+gaagaaaaatcacgttgtgcggttaagcgatacggggtctttccactcagtgcgttgagtaacagcctgagctaggcgta
+acgtacgacggccgtggcggtgctgccgcttagtcgacctgctcacgggctcaaagtttgcggtttctatctaaatcagc
+agggctagtttccggtcc----cccgagctcccgcattcatgccctccaggacaagggtttaccaatcgtgaatcactct
+gaagcattaggtccataactgtttcatgctgatgtattgcagatgaatgggttactatccatcttggtctaaacacagag
+acgtcagcaagcaacgcccactcactattttttcagcgttagaaatcacttctaatttctacggtttatcatgaagttca
+gatgtttcacaatcgacctatacccc------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+----------tagttcaacttggacaa
+> 3:1741-1999 + outseq.fa
+gaagaaaaatcacgttgtgcggttaagcgatacggggtctttccactcagtgcgttgagtaacagcctgagctaggcgta
+acgtacgacggccgtggcggtgctgccgcttagtcgacctgctcacgggctcaaagtttgcggtttctatctaaatcagc
+agggctagtttccggtccccat----------------------------------------------------------
+--------------------------------------------------------------------------------
+----------------------------------------------cacttctaatttctacggtttatcatgaagttca
+gatgtttcacaatcgacctatacccc------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+----------tagttcaacttggacaa
+> 4:1741-2539 + outseq.fa
+gaagaaaaatcacgttgtgcggttaagcgatacggggtctttccactcagtgcgttgagtaacagcctgagctaggcgta
+acgtacgacggccgtggcggtgctgccgcttagtcgacctgctcacgggctcaaagtttgcggtttctatctaaatcagc
+agggctagtttccggtccccat----------------------------------------------------------
+--------------------------------------------------------------------------------
+----------------------------------------------cacttctaatttctacggtttatcatgaagttca
+gatgtttcacaatcgacctata----ccctgaaaattcctctatggccctaaccgtagttcgcggtggtttagtttcaca
+aattggggctgaaaattcctctatggccctaaccgtagttcgcggtggtttagtttcacaaattggggctgaaaattcct
+ctatggccctaaccgtagttcgcggtggtttagtttcacaaattggggaagtatccacacgacattaggaagaccgaccg
+atggtggaacgatgctgttgaaacctcgcgtaagttgaggcggaggcggttggttaaaaggcggcccgtggcagggtctg
+actgaccgaagtatccacacgacattaggaagaccgaccgatggtggaacgatgctgttgaaacctcgcgtaagttgagg
+cggaggcggttggttaaaaggcggcccgtggcagggtctgactgaccgaagtatccacacgacattaggaagaccgaccg
+atggtggaacgatgctgttgaaacctcgcgtaagttgaggcggaggcggttggttaaaaggcggcccgtggcagggtctg
+actgaccgcctagttcaacttggacaa
+=
+> 1:1-182 + outseq.fa
+aggacagcgctttggattgaaacggcgacatacgacataccatggaaggtccgatatatacggaatgatttcaaacaact
+gggggcccattgtctacgagtatctaagagcgggttttagaccagttgtaccatcgcgccggtgcccaattcgtgacacc
+tgcgtgtctttctgcgtaattc
+=
+> 1:1920-1920 + outseq.fa
+c
+=
+> 1:2180-2180 + outseq.fa
+c
+=
+> 2:1-2 + outseq.fa
+ag
+=
+> 2:1380-1380 + outseq.fa
+c
+=
+> 2:1820-1820 + outseq.fa
+c
+=
+> 3:2000-2000 + outseq.fa
+c
+=
+> 4:120-120 + outseq.fa
+c
+=
+> 4:2540-2540 + outseq.fa
+c
+=

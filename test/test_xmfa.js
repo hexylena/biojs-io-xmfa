@@ -15,7 +15,9 @@ var fs = require("fs");
 var xmfa = require('../');
 
 
-var body = fs.readFileSync(__dirname + "/simple.xmfa");
+var simple = fs.readFileSync(__dirname + "/simple.xmfa");
+var emptyl = fs.readFileSync(__dirname + "/empty-lcb-seq.xmfa");
+
 describe('biojs-io-xmfa module', function(){
   describe('#parse()', function(){
     var reference = [
@@ -47,18 +49,53 @@ describe('biojs-io-xmfa module', function(){
           end: 12880,
           strand: '+',
           lcb_idx: 2 } ] ];
-    var parsed = xmfa.parse(body.toString());
+
+    var emptyl_ref = [
+      [
+        {
+          start: 301,
+          end: 420,
+          strand: '+',
+          lcb_idx: 1
+        },
+        {
+          start: 540,
+          end: 660,
+          strand: '+',
+          lcb_idx: 3
+        },
+        {
+          start: 540,
+          end: 660,
+          strand: '+',
+          lcb_idx: 4
+        }
+      ]
+    ];
+
+    var parsed_simple = xmfa.parse(simple.toString());
+    var parsed_emptyl = xmfa.parse(emptyl.toString());
 
     // Remove sequence data
-    for(var lcb_idx in parsed){
-      for(var lcb_seq_idx in parsed[lcb_idx]){
-        delete parsed[lcb_idx][lcb_seq_idx]['seq'];
+    for(var lcb_idx in parsed_simple){
+      for(var lcb_seq_idx in parsed_simple[lcb_idx]){
+        delete parsed_simple[lcb_idx][lcb_seq_idx]['seq'];
+      }
+    }
+
+    for(var lcb_idx in parsed_emptyl){
+      for(var lcb_seq_idx in parsed_emptyl[lcb_idx]){
+        delete parsed_emptyl[lcb_idx][lcb_seq_idx]['seq'];
       }
     }
 
     // Run comparison
-    it('correct data', function(){
-        assert.deepEqual(parsed, reference);
+    it('correct data: simple', function(){
+        assert.deepEqual(parsed_simple, reference);
+    });
+
+    it('correct data: lcb with one empty sequence', function(){
+        assert.deepEqual(parsed_emptyl, emptyl_ref);
     });
   });
 });

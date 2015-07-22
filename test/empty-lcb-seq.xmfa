@@ -1,0 +1,26 @@
+#FormatVersion Mauve1
+#Sequence1File	outseq.fa
+#Sequence1Entry	1
+#Sequence1Format	FastA
+#Sequence2File	outseq.fa
+#Sequence2Entry	2
+#Sequence2Format	FastA
+#Sequence3File	outseq.fa
+#Sequence3Entry	3
+#Sequence3Format	FastA
+#Sequence4File	outseq.fa
+#Sequence4Entry	4
+#Sequence4Format	FastA
+#BackboneFile	outseq.xmfa.bbcols
+> 1:301-420 + outseq.fa
+-ataagatggtagggttgggctacccagttagtaattggttgttttagtataaacatcctgagcacagctgcactcttgt
+gtatgttccccgaccttccctttgaggaccgcccgggattt
+> 2:0-0 + outseq.fa
+--------------------------------------------------------------------------------
+-----------------------------------------
+> 3:540-660 + outseq.fa
+cataagatggtagggttgggctacccagttagtaattggttgttttagtataaacatcctgagcacagctgcactcttgt
+gtatgttccccgaccttccctttgaggaccgcccgggattt
+> 4:540-660 + outseq.fa
+cataagatggtagggttgggctacccagttagtaattggttgttttagtataaacatcctgagcacagctgcactcttgt
+gtatgttccccgaccttccctttgaggaccgcccgggattt
