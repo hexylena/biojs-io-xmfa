@@ -3,7 +3,7 @@
   "description": "Mauve XMFA Parser",
   "version": "0.2.0",
   "homepage": "https://github.com/erasche/biojs-io-xmfa",
-  "author": "Eric Rasche <esr@tamu.edu>",
+  "author": "Helena Rasche <hxr@hx42.org>",
   "repository": {
     "type": "git",
     "url": "git://github.com/erasche/biojs-io-xmfa.git"

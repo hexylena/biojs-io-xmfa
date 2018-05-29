@@ -2,7 +2,7 @@
  * biojs-io-xmfa
  * https://github.com/erasche/biojs-io-xmfa
  *
- * Copyright (c) 2015 Eric Rasche
+ * Copyright (c) 2015 Helena Rasche
  * Licensed under the Apache 2 license.
  */
 
@@ -21,11 +21,11 @@ var uglify = require('gulp-uglify');
 
 
 // testing
-var mocha = require('gulp-mocha'); 
+var mocha = require('gulp-mocha');
 
 
-// code style 
-var jshint = require('gulp-jshint'); 
+// code style
+var jshint = require('gulp-jshint');
 
 // gulp helper
 var source = require('vinyl-source-stream'); // converts node streams into vinyl streams
@@ -113,7 +113,7 @@ gulp.task('build-browser-min',['init'], function() {
     .pipe(streamify(uglify()))
     .pipe(gulp.dest(buildDir));
 });
- 
+
 gulp.task('build-browser-gzip', ['build-browser-min'], function() {
   return gulp.src(outputFileMin)
     .pipe(gzip({append: false, gzipOptions: { level: 9 }}))
@@ -132,7 +132,7 @@ function exposeBundles(b){
   }
 }
 
-// watch task for browserify 
+// watch task for browserify
 // watchify has an internal cache -> subsequent builds are faster
 gulp.task('watch', function() {
   var util = require('gulp-util')

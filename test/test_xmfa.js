@@ -2,7 +2,7 @@
  * biojs-io-xmfa
  * https://github.com/erasche/biojs-io-xmfa
  *
- * Copyright (c) 2015 Eric Rasche
+ * Copyright (c) 2015 Helena Rasche
  * Licensed under the Apache 2 license.
  */
 

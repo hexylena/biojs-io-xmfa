@@ -84,7 +84,7 @@ If you have any problem or suggestion please open an issue [here](https://github
 ## License
 This software is licensed under the Apache 2 license, quoted below.
 
-Copyright (c) 2015, Eric Rasche
+Copyright (c) 2015, Helena Rasche
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not
 use this file except in compliance with the License. You may obtain a copy of
